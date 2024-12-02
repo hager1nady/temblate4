@@ -1,0 +1,292 @@
+/* Start box flex*/
+@media(max-width:767px) {
+    .hide-mobile {
+        display: none;
+    }
+
+    .d-block-mobile {
+        display: block;
+    }
+}
+
+.d-block {
+    display: block;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.g-10 {
+    gap: 10px;
+}
+
+.g-20 {
+    gap: 20px;
+}
+
+.g-15 {
+    gap: 15px;
+}
+
+/* End box flex*/
+
+
+/* Start width */
+.w-full {
+    width: 100%;
+}
+
+.w-fit {
+    width: fit-content;
+}
+
+/* End width */
+
+/* Start padding + margin */
+.p-5 {
+    padding: 5px;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.p-15 {
+    padding: 15px;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.p {
+    padding: 10px 0px;
+}
+
+
+.m-0 {
+    margin: 0;
+}
+
+.m-20 {
+    margin: 20px;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.mt-5 {
+    margin-top: 5px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+/*End padding + margin */
+
+/* Start color */
+.bg-white {
+    background-color: white;
+}
+
+.bg-eee {
+    background-color: #eee;
+}
+
+.bg-blue {
+    background-color: var(--main-color);
+}
+
+.bg-orange {
+    background-color: var(--orange);
+}
+
+.bg-green {
+    background-color: var(--green);
+}
+
+.c-black {
+    color: black;
+}
+
+.c-grey {
+    color: var(--grey-color);
+}
+
+.c-deleted {
+    color: var(--color-deleted);
+}
+
+
+.c-white {
+    color: white;
+}
+
+.c-blue {
+    color: var(--main-color);
+}
+
+.c-orange {
+    color: var(--orange);
+}
+
+.c-green {
+    color: var(--green);
+}
+
+@media(max-width:767px) {
+    .black-mobile {
+        color: black;
+    }
+}
+
+/* End color */
+
+/* Start position */
+.p-relative {
+    position: relative;
+}
+
+/* End position */
+
+/* Start fonts*/
+.txt-c {
+    text-align: center;
+}
+
+.fs-10 {
+    font-size: 10px;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+@media(max-width:767px) {
+    .txt-c-mobile {
+        text-align: center;
+    }
+
+    .d-block-mobile {
+        display: block;
+    }
+}
+
+/* End fonts */
+
+/* Start border */
+.rad-6 {
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.rad-10 {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.rad-50 {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.border-ccc {
+    border: 1px solid #ccc;
+}
+
+.b-none {
+    border: none;
+}
+
+/* End border*/
+
+/* Start Component */
+.between-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.center-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-shape {
+    padding: 4px 10px;
+}
+
+/* End Component */

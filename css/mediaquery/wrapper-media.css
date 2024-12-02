@@ -1,0 +1,41 @@
+@media(max-width:767px) {
+    .wrapper {
+        grid-template-columns: minmax(200px, 1fr);
+        margin-left: 10px;
+        margin-right: 10px;
+        gap: 10px;
+    }
+
+    .welcome .intro img:first-of-type {
+        left: 50%;
+        top: 74px;
+        transform: translateX(-50%);
+
+    }
+
+    .tickets .content .box {
+        width: 100%;
+    }
+
+    .news .news-row .days {
+        width: 30%;
+        font-size: 12px;
+    }
+
+    .news .news-row .news-content .text h3 {
+        font-size: 16px;
+    }
+
+    .news .news-row .news-content .text p {
+        font-size: 12px;
+    }
+
+    .tasks .tasks-row .tasks-content .text h3 {
+        font-size: 16px;
+    }
+
+    .tasks .tasks-row .tasks-content .text p {
+        font-size: 14px;
+    }
+
+}

@@ -1,0 +1,74 @@
+.content {
+    overflow: hidden;
+}
+
+.content .head .search::before {
+    font-family: var(--fa-style-family);
+    content: "\f002";
+    font-weight: 900;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 15px;
+    color: var(--grey-color);
+}
+ 
+
+.content .head .search input {
+    margin-left: 5px;
+    padding-left: 30px;
+    width: 160px;
+    transition: width 0.3s;
+    -webkit-transition: width 0.3s;
+    -moz-transition: width 0.3s;
+    -ms-transition: width 0.3s;
+    -o-transition: width 0.3s;
+}
+
+.content .head .search input:focus {
+    outline-color: #ddd;
+    width: 200px;
+}
+.content .head .search input:focus::placeholder{
+  color: transparent;
+}
+
+.content .head .icons .notification::before {
+    content: "";
+    background-color: var(--red-color);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+
+.content .head .icons  img {
+    width: 32px;
+    height: 32px;
+    margin-left: 15px;
+}
+
+.page h1 {
+    margin: 20px 20px 40px;
+}
+
+.page h1::before,
+.page h1::after {
+    content: "";
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+}
+
+.page h1::before {
+    width: 120px;
+    background-color: white;
+}
+.page h1::after {
+    width: 40px;
+    background-color: black;
+}

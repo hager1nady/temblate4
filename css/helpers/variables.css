@@ -1,0 +1,12 @@
+:root {
+    --main-transition: 0.3s;
+    --fa-style-family: "Font Awesome 6 Free";
+    --grey-color: #777;
+    --red-color: red;
+    --main-color: blue;
+    --main-ultr-color: rgb(6, 6, 230);
+    --blue: rgb(0 117 255 / 20%);
+    --orange: #f59e0b;
+    --green: #22c55e;
+    --color-deleted : #77777717;
+}

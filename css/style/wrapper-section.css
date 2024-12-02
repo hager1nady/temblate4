@@ -1,0 +1,320 @@
+.wrapper {
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.wrapper .intro>div>h2 {
+    text-transform: capitalize;
+}
+
+/* start welcom wedget */
+.welcome {
+    overflow: hidden;
+}
+
+.welcome .intro img:last-of-type {
+    width: 200px;
+    margin-bottom: -10px;
+}
+
+.welcome .intro img:first-of-type {
+    position: absolute;
+    top: 100%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 4px solid white;
+    -webkit-transform: translateY();
+    -moz-transform: translateY();
+    -ms-transform: translateY();
+    -o-transform: translateY();
+    box-shadow: 0 0 5px #ddd;
+}
+
+.welcome .body {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+
+}
+
+.welcome .body>div {
+    flex: 1;
+}
+
+.welcome .body>div:not(:last-of-type) {
+    margin-bottom: 20px;
+}
+
+.welcome .visit {
+    margin: 0 15px 15px auto;
+    transition: var(--main-transition);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
+}
+
+.welcome .visit:hover {
+    background-color: var(--main-ultr-color);
+}
+
+/* end welcom wedget */
+
+/* start quick draft wedget */
+.quick-draft form textarea {
+    resize: none;
+    min-height: 180px;
+}
+
+.quick-draft form .save {
+    margin-left: auto;
+    cursor: pointer;
+    transition: var(--main-transition);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
+}
+
+.quick-draft form .save:hover {
+    background-color: var(--main-ultr-color);
+}
+
+/* End quick draft wedget */
+
+/* start target wedget */
+.targets .targets-row .icon {
+    width: 80px;
+    height: 80px;
+    margin-right: 15px;
+}
+
+.blue .icon,
+.blue .progress {
+    background-color: rgb(0 117 255 / 20%);
+}
+
+.orange .icon,
+.orange .progress {
+    background-color: rgb(255 158 11 / 20%);
+}
+
+.green .icon,
+.green .progress {
+    background-color: rgb(34 197 94 / 20%);
+}
+
+
+.targets .details {
+    flex: 1;
+}
+
+.targets .details .progress {
+    height: 6px;
+}
+
+.targets .details .progress>span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+.targets .details .progress>span span {
+    position: absolute;
+    bottom: 16px;
+    right: -16px;
+    color: white;
+    padding: 2px 5px;
+}
+
+.targets .details .progress>span span::after {
+    content: "";
+    position: absolute;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px;
+    bottom: -9px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.targets .details .progress>.blue span::after {
+    border-top-color: var(--blue);
+}
+
+.targets .details .progress>.orange span::after {
+    border-top-color: var(--orange);
+}
+
+.targets .details .progress>.green span::after {
+    border-top-color: var(--green);
+}
+
+/* End target wedget */
+
+/* Start tickets wedget */
+.tickets .content .box {
+    border: 2px solid #ddd;
+    width: calc(50% - 15px);
+}
+
+.tickets .content>div:first-of-type+div .icon {
+    color: var(--main-color);
+    font-size: 20px;
+}
+
+.tickets .content>div:first-of-type .icon {
+    color: var(--orange);
+    font-size: 20px;
+}
+
+.tickets .content .box .right {
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--green);
+    color: var(--green);
+    padding: 10px;
+}
+
+.tickets .content>div:last-of-type .icon {
+    width: 20px;
+    height: 20px;
+    border: 2px solid red;
+    padding: 0 10px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    color: red;
+}
+
+/* End tickets wedget  */
+
+/* Start News wedget */
+.news .news-row {
+    padding: 20px 0px;
+}
+
+.news .news-row:not(:last-of-type) {
+    border-bottom: 1px solid #ddd;
+}
+
+.news .news-row .news-content {
+    width: 80%;
+}
+
+.news .news-row .news-content img {
+    width: 80px;
+    height: 45px;
+}
+
+.news .news-row .days {
+    width: 20%;
+    padding: 5px;
+}
+
+/* End News wedget */
+
+/* Start Tasks wedget */
+.tasks .tasks-row:not(:last-of-type) {
+    border-bottom: 1px solid #ddd;
+}
+
+.tasks .tasks-row .tasks-content {
+    align-items: flex-end;
+    padding: 10px 0px;
+}
+
+.tasks .tasks-row:first-of-type+.tasks-row+.tasks-row+.tasks-row {
+    border-bottom: 1px solid var(--color-deleted);
+}
+
+/* End Tasks wedget */
+
+/* Start search wedget */
+.search .lang span {
+    padding: 5px 10px;
+}
+
+/* End search wedget */
+
+/* Start uploads wedget */
+.upload .up-content:not(:last-of-type) {
+    border-bottom: 1px solid #ddd;
+}
+
+.upload .up-content .file img {
+    width: 30px;
+}
+
+.upload .up-content .number {
+    padding: 4px 10px;
+}
+
+/* End uploads wedget */
+
+/* start project wedget */
+
+
+.project ul li span {
+    width: 18px;
+    height: 18px;
+    background-color: var(--main-color);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    /* border: 2px solid red; */
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.project ul li span::before{
+  content: "";
+  position: absolute;
+  left: -4px;
+  top: -4px;
+  bottom: -4px;
+  right: -4px;
+  border: 2.5px solid var(--main-color);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.project ul li span::after{
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 10px;
+    background-color: var(--main-color);
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -8px;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+
+
+
+
+
+/* end project wedget */
