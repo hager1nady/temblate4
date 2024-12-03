@@ -37,5 +37,11 @@
     .tasks .tasks-row .tasks-content .text p {
         font-size: 14px;
     }
+    .post>p {
+        text-align: center;
+    }
+    .social .row>div>span:first-of-type {
+        font-size: 12px;
+    }
 
 }
