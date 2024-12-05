@@ -164,6 +164,10 @@
     background-color: var(--green);
 }
 
+.bg-red {
+    background-color: red;
+}
+
 .c-black {
     color: black;
 }
