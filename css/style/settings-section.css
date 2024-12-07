@@ -1,0 +1,158 @@
+/* start toggle */
+.toggle-check {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.toggle-switch {
+    background-color: #ccc;
+    width: 60px;
+    height: 28px;
+    position: relative;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    transition: var(--main-transition);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
+    cursor: pointer;
+}
+
+.toggle-switch::before {
+    content: "";
+    background-color: white;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    top: 2px;
+    left: 3px;
+    transition: var(--main-transition);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
+}
+
+.toggle-check:checked+.toggle-switch {
+    background-color: var(--main-color);
+}
+
+.toggle-check:checked+.toggle-switch::before {
+    content: "";
+    background-color: white;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    top: 2px;
+    left: 35px;
+}
+
+/* end toggle */
+
+/* start site control settings */
+.settings-page {
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr))
+}
+
+.settings-page textarea {
+    resize: none;
+    min-height: 150px;
+}
+
+/* end site control settings */
+
+/* start General info settings */
+.settings-page form>div:last-of-type input {
+    display: inline-flex;
+    width: calc(100% - 80px);
+}
+
+/* end General info settings */
+
+/* start social media wedget */
+.social .row {
+    padding: 5px 10px;
+    background-color: #eee;
+}
+
+.social .row>span {
+    color: #989696;
+}
+
+.social .row>span:first-of-type::before {
+    content: "";
+    position: absolute;
+    left: 40px;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    background-color: #9896963c;
+}
+
+/* end social media wedget */
+
+/* Start wedget control  */
+.wedget div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.wedget .check-box {
+    width: 15px;
+    height: 15px;
+}
+
+/* End wedget control  */
+
+/* start manage wedget */
+.manage>div:first-of-type {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.manage>div:first-of-type>div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.manage .radio {
+    width: 15px;
+    height: 15px;
+}
+
+.manage .servers>input {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.manage .servers .server {
+    border: 1px solid #eee;
+    margin-top: 20px;
+}
+
+.manage .servers .server label {
+    cursor: pointer;
+
+}
+
+.manage .servers input:checked+.server {
+    border: 2px solid var(--main-color);
+}
+
+/* end manage wedget */

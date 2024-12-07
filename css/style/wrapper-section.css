@@ -47,9 +47,14 @@
     flex: 1;
 }
 
-.welcome .body>div:not(:last-of-type) {
-    margin-bottom: 20px;
-}
+/* .welcome .body>div>span {
+    margin: auto;
+} */
+
+/* .welcome .body>div:not(:last-of-type) {
+    margin-right: 20px;
+} */
+
 
 .welcome .visit {
     margin: 0 15px 15px auto;
@@ -167,29 +172,49 @@
 .tickets .content .box {
     border: 2px solid #ddd;
     width: calc(50% - 15px);
+    padding: 35px 0px;
 }
 
 .tickets .content>div:first-of-type+div .icon {
     color: var(--main-color);
-    font-size: 20px;
+    /* font-size: 20px; */
+}
+
+.tickets .content .box .icon {
+    font-size: 30px;
+}
+
+/* .tickets .content .box>span {
+    margin: auto;
+} */
+
+.tickets .content .box>div:last-of-type {
+    display: flex;
 }
 
 .tickets .content>div:first-of-type .icon {
     color: var(--orange);
-    font-size: 20px;
+    font-size: 35px;
+}
+
+.tickets .content>div:first-of-type+div .icon {
+    font-size: 35px;
 }
 
 .tickets .content .box .right {
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     border: 2px solid var(--green);
     color: var(--green);
     padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .tickets .content>div:last-of-type .icon {
-    width: 20px;
-    height: 20px;
+    width: 35px;
+    height: 35px;
     border: 2px solid red;
     padding: 0 10px;
     border-radius: 3px;

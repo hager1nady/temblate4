@@ -13,6 +13,34 @@
 
     }
 
+    .welcome .body>div:not(:last-of-type) {
+        margin-bottom: 20px;
+    }
+
+    .welcome .body>div:not(:first-of-type)>span {
+        margin-top: 5px;
+    }
+
+    .welcome .body>div>span:first-of-type {
+        font-size: 25px
+    }
+
+    .welcome .body>div>span:last-of-type {
+        font-size: 18px
+    }
+
+    .welcome .visit {
+        width: 90%;
+    }
+
+    .quick-draft form .save {
+        width: 100%;
+        padding: 7px 0px;
+    }
+
+
+
+
     .tickets .content .box {
         width: 100%;
     }
@@ -37,9 +65,11 @@
     .tasks .tasks-row .tasks-content .text p {
         font-size: 14px;
     }
+
     .post>p {
         text-align: center;
     }
+
     .social .row>div>span:first-of-type {
         font-size: 12px;
     }

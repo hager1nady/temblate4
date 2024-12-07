@@ -15,9 +15,9 @@ a {
     text-decoration: none;
 }
 
-/* *:focus {
+*:focus {
     outline: none;
-} */
+}
 
 .container {
     padding-left: 15px;
