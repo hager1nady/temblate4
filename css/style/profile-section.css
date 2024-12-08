@@ -1,0 +1,134 @@
+.profile-page .overview .avatar-box {
+    width: 300px;
+}
+
+.profile-page .overview .avatar-box>img {
+    width: 120px;
+}
+
+.profile-page .overview .avatar-box .leve-progress {
+    height: 6px;
+    width: 70%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.profile-page .overview .avatar-box .leve-progress .progress {
+    background-color: var(--main-color);
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+
+.profile-page .overview .info-box .box {
+    flex-wrap: wrap;
+    border-bottom: 1px solid #eee;
+    transition: var(--main-transition);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
+}
+
+.profile-page .overview .info-box .box h4 {
+    font-weight: normal;
+}
+
+.profile-page .overview .info-box .box:hover {}
+
+
+/* start toggle */
+.toggle-check {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.toggle-switch {
+    background-color: #ccc;
+    width: 60px;
+    height: 20px;
+    position: relative;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    transition: var(--main-transition);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
+    cursor: pointer;
+}
+
+.toggle-switch::before {
+    content: "";
+    background-color: white;
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    top: 1.5px;
+    left: 2px;
+    transition: var(--main-transition);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
+}
+
+.toggle-check:checked+.toggle-switch {
+    background-color: var(--main-color);
+}
+
+.toggle-check:checked+.toggle-switch::before {
+    content: "";
+    background-color: white;
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    top: 1.5px;
+    left: 42px;
+}
+
+/* end toggle */
+
+/* start content */
+.profile-page .content .skills {
+    width: 400px;
+}
+
+.profile-page .content .skills div span {
+    padding: 3px 6px;
+}
+
+.profile-page .content .activities {
+    width: calc(100% - 400px);
+}
+
+.profile-page .content .skills>div {
+    padding: 20px 0px;
+}
+
+.profile-page .content .skills>div:not(:last-of-type) {
+    border-bottom: 1px solid #eee;
+}
+
+.profile-page .content .activities .box:not(:last-of-type) {
+    border-bottom: 1px solid #eee;
+}
+
+.profile-page .content .activities .box img {
+    width: 60px;
+    height: 60px;
+}

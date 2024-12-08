@@ -1,0 +1,85 @@
+@media(min-width:768px) {
+    .profile-page .overview .avatar-box {
+        border-right: 1px solid #eee;
+    }
+
+    .profile-page .overview .info-box .box>div {
+        min-width: 230px;
+        padding: 10px 0px 0px;
+    }
+}
+
+@media(max-width:767px) {
+    .profile-page .overview {
+        flex-direction: column;
+    }
+
+    .profile-page .info-box .box {
+        text-align: center;
+    }
+
+    .profile-page .info-box .box h4 {
+        font-size: 18px;
+    }
+
+    .profile-page .info-box .box label {
+        justify-content: center
+    }
+
+    .profile-page .overview .info-box .box>div {
+        min-width: 250px;
+        padding: 10px 0px 0px;
+    }
+
+    /* .profile-page .content {
+        flex-direction: column;
+    } */
+
+    .profile-page .content .activities {
+        width: 100%;
+    }
+
+    .profile-page .content .skills>div {
+        width: 260px;
+
+    }
+
+    .profile-page .content .activities .box {
+        flex-direction: column;
+    }
+
+    .profile-page .content .activities .box .other-data {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .profile-page .content .activities .box .other-data span {
+        display: block;
+        padding-bottom: 5px;
+    }
+
+    .profile-page .content .activities .box .other-data p {
+        padding-bottom: 5px;
+    }
+
+
+    .profile-page .content .activities .box div+div>span {
+        display: block;
+        margin-left: 15px;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media(max-width:1200px) {
+    .profile-page .content {
+        flex-direction: column;
+    }
+    .profile-page .content .skills {
+        width: 100%;
+    }
+    .profile-page .content .activities {
+        width: 100%;
+    }
+}

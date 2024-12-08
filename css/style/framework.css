@@ -57,12 +57,16 @@
     gap: 10px;
 }
 
+.g-15 {
+    gap: 15px;
+}
+
 .g-20 {
     gap: 20px;
 }
 
-.g-15 {
-    gap: 15px;
+.g-100 {
+    gap: 100px;
 }
 
 /* End box flex*/
@@ -129,8 +133,12 @@
 }
 
 
-.p-t-b {
+.p-t-b-20 {
     padding: 20px 0px;
+}
+
+.p-t-b-15 {
+    padding: 15px 0px;
 }
 
 .pb-20 {
@@ -151,7 +159,7 @@
 }
 
 .m-10 {
-    margin: 10px;
+    margin: 10p;
 }
 
 .m-15 {
@@ -186,6 +194,10 @@
     margin-top: 40px;
 }
 
+.mr-5 {
+    margin-right: 5px;
+}
+
 .mb-5 {
     margin-bottom: 5px;
 }
@@ -208,6 +220,10 @@
 
 .ml-20 {
     margin-left: 20px;
+}
+
+.ml-30 {
+    margin-left: 30px;
 }
 
 /*End padding + margin */
@@ -243,6 +259,10 @@
 
 .c-grey {
     color: var(--grey-color);
+}
+
+.c-orange {
+    color: var(--orange);
 }
 
 .c-deleted {
@@ -320,6 +340,10 @@
 
 .fs-20 {
     font-size: 20px;
+}
+
+.fs-25 {
+    font-size: 25px;
 }
 
 .fs-30 {
