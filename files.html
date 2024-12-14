@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temblate4</title>
+    <link rel="styles+heet" href="css/helpers/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/helpers/reset.css">
+    <link rel="stylesheet" href="css/helpers/global.css">
+    <link rel="stylesheet" href="css/helpers/variables.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style/framework.css">
+    <link rel="stylesheet" href="css/style/sidebar-section.css">
+    <link rel="stylesheet" href="css/mediaquery/sidebar-media.css">
+    <link rel="stylesheet" href="css/style/head-section.css">
+    <link rel="stylesheet" href="css/style/file-section.css">
+    <link rel="stylesheet" href="css/mediaquery/file-media.css">
+
+</head>
+
+<body>
+
+
+    <div class="page d-flex">
+        <div class="sidebar bg-white p-20 p-relative">
+            <h3 class="p-relative txt-c">Hager</h3>
+            <ul>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="index.html">
+                        <i class="fa-regular fa-chart-bar fa-fw"></i>
+                        <span class="fs-14 hide-mobile">Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="settings.html">
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                        <span class="fs-14 hide-mobile">Setting</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="profile.html">
+                        <i class="fa-solid fa-user fa-fw"></i>
+                        <span class="fs-14 hide-mobile">Prifile</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="projects.html">
+                        <i class="fa-solid fa-diagram-project fa-fw"></i>
+                        <span class="fs-14 hide-mobile">Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="courses.html">
+                        <i class="fa-brands fa-discourse fa-fw"></i>
+                        <span class="fs-14 hide-mobile">Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="friends.html">
+                        <i class="fa-solid fa-user-group fa-fw"></i>
+                        <span class="fs-14 hide-mobile">Friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="active d-flex align-center fs-14 c-black rad-6 p-10" href="files.html">
+                        <i class="fa-solid fa-file fa-fw"></i>
+                        <span class="fs-14 hide-mobile">Files</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="plans.html">
+                        <i class="fa-solid fa-plane fa-fw"></i>
+                        <span class="fs-14 hide-mobile">Plans</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="content w-full">
+            <!-- Strart Head -->
+            <div class="head bg-white p-15 between-flex">
+                <div class="search p-relative">
+                    <input class="p-10 .border-ccc rad-10" type="search" placeholder="Type A Keyword">
+                </div>
+                <div class="icons d-flex align-center">
+                    <span class="p-relative notification">
+                        <i class="fa-solid fa-bell fa-lg"></i>
+                    </span>
+                    <img src="images/header/avatar.jpg!w700wp" alt="">
+                </div>
+            </div>
+            <!-- End Head -->
+
+            <!-- Start courses -->
+            <h1 class="p-relative">Files</h1>
+            <div class="d-flex file-content">
+                <div class="files-page m-20 d-grid g-20">
+                    <div class="card bg-white rad-6 p-10">
+                        <span class="fs-12 c-grey"><i class="fa-solid fa-download"></i></span>
+                        <div class="b-bottom">
+                            <div class="txt-c file-img mb-15">
+                                <img src="images/files/pdf.svg" alt="">
+                                <span class="fs-14">my file-pdf</span>
+                            </div>
+                            <span class="c-grey fs-14 d-block mb-15">Coder</span>
+                        </div>
+                        <div class="between-flex c-grey fs-12 mt-10">
+                            <span>20/06/2021</span>
+                            <span>5.5MK</span>
+                        </div>
+                    </div>
+                    <div class="card bg-white rad-6 p-10">
+                        <span class="fs-12 c-grey"><i class="fa-solid fa-download"></i></span>
+                        <div class="b-bottom">
+                            <div class="txt-c file-img mb-15">
+                                <img src="images/files/dll.svg" alt="">
+                                <span class="fs-14">my file-dll</span>
+                            </div>
+                            <span class="c-grey fs-14 d-block mb-15">Coder</span>
+                        </div>
+                        <div class="between-flex c-grey fs-12 mt-10">
+                            <span>20/06/2021</span>
+                            <span>5.5MK</span>
+                        </div>
+                    </div>
+                    <div class="card bg-white rad-6 p-10">
+                        <span class="fs-12 c-grey"><i class="fa-solid fa-download"></i></span>
+                        <div class="b-bottom">
+                            <div class="txt-c file-img mb-15">
+                                <img src="images/files/eps.svg" alt="">
+                                <span class="fs-14">my file-esp</span>
+                            </div>
+                            <span class="c-grey fs-14 d-block mb-15">Coder</span>
+                        </div>
+                        <div class="between-flex c-grey fs-12 mt-10">
+                            <span>20/06/2021</span>
+                            <span>5.5MK</span>
+                        </div>
+                    </div>
+                    <div class="card bg-white rad-6 p-10">
+                        <span class="fs-12 c-grey"><i class="fa-solid fa-download"></i></span>
+                        <div class="b-bottom">
+                            <div class="txt-c file-img mb-15">
+                                <img src="images/files/avi.svg" alt="">
+                                <span class="fs-14">my file-avi</span>
+                            </div>
+                            <span class="c-grey fs-14 d-block mb-15">Coder</span>
+                        </div>
+                        <div class="between-flex c-grey fs-12 mt-10">
+                            <span>20/06/2021</span>
+                            <span>5.5MK</span>
+                        </div>
+                    </div>
+                    <div class="card bg-white rad-6 p-10">
+                        <span class="fs-12 c-grey"><i class="fa-solid fa-download"></i></span>
+                        <div class="b-bottom">
+                            <div class="txt-c file-img mb-15">
+                                <img src="images/files/png.svg" alt="">
+                                <span class="fs-14">my file-png</span>
+                            </div>
+                            <span class="c-grey fs-14 d-block mb-15">Coder</span>
+                        </div>
+                        <div class="between-flex c-grey fs-12 mt-10">
+                            <span>20/06/2021</span>
+                            <span>5.5MK</span>
+                        </div>
+                    </div>
+                    <div class="card bg-white rad-6 p-10">
+                        <span class="fs-12 c-grey"><i class="fa-solid fa-download"></i></span>
+                        <div class="b-bottom">
+                            <div class="txt-c file-img mb-15">
+                                <img src="images/files/psd.svg" alt="">
+                                <span class="fs-14">my file-psd</span>
+                            </div>
+                            <span class="c-grey fs-14 d-block mb-15">Coder</span>
+                        </div>
+                        <div class="between-flex c-grey fs-12 mt-10">
+                            <span>20/06/2021</span>
+                            <span>5.5MK</span>
+                        </div>
+                    </div>
+                    <div class="card bg-white rad-6 p-10">
+                        <span class="fs-12 c-grey"><i class="fa-solid fa-download"></i></span>
+                        <div class="b-bottom">
+                            <div class="txt-c file-img mb-15">
+                                <img src="images/files/sql.svg" alt="">
+                                <span class="fs-14">my file-sql</span>
+                            </div>
+                            <span class="c-grey fs-14 d-block mb-15">Coder</span>
+                        </div>
+                        <div class="between-flex c-grey fs-12 mt-10">
+                            <span>20/06/2021</span>
+                            <span>5.5MK</span>
+                        </div>
+                    </div>
+                    <div class="card bg-white rad-6 p-10">
+                        <span class="fs-12 c-grey"><i class="fa-solid fa-download"></i></span>
+                        <div class="b-bottom">
+                            <div class="txt-c file-img mb-15">
+                                <img src="images/files/txt.svg" alt="">
+                                <span class="fs-14">my file-txt</span>
+                            </div>
+                            <span class="c-grey fs-14 d-block mb-15">Coder</span>
+                        </div>
+                        <div class="between-flex c-grey fs-12 mt-10">
+                            <span>20/06/2021</span>
+                            <span>5.5MK</span>
+                        </div>
+                    </div>
+                    <div class="card bg-white rad-6 p-10">
+                        <span class="fs-12 c-grey"><i class="fa-solid fa-download"></i></span>
+                        <div class="b-bottom">
+                            <div class="txt-c file-img mb-15">
+                                <img src="images/files/zip.svg" alt="">
+                                <span class="fs-14">my file-zip</span>
+                            </div>
+                            <span class="c-grey fs-14 d-block mb-15">Coder</span>
+                        </div>
+                        <div class="between-flex c-grey fs-12 mt-10">
+                            <span>20/06/2021</span>
+                            <span>5.5MK</span>
+                        </div>
+                    </div>
+                    <div class="card bg-white rad-6 p-10">
+                        <span class="fs-12 c-grey"><i class="fa-solid fa-download"></i></span>
+                        <div class="b-bottom">
+                            <div class="txt-c file-img mb-15">
+                                <img src="images/files/pdf.svg" alt="">
+                                <span class="fs-14">my file-pdf</span>
+                            </div>
+                            <span class="c-grey fs-14 d-block mb-15">Coder</span>
+                        </div>
+                        <div class="between-flex c-grey fs-12 mt-10">
+                            <span>20/06/2021</span>
+                            <span>5.5MK</span>
+                        </div>
+                    </div>
+                    <div class="card bg-white rad-6 p-10">
+                        <span class="fs-12 c-grey"><i class="fa-solid fa-download"></i></span>
+                        <div class="b-bottom">
+                            <div class="txt-c file-img mb-15">
+                                <img src="images/files/avi.svg" alt="">
+                                <span class="fs-14">my file-avi</span>
+                            </div>
+                            <span class="c-grey fs-14 d-block mb-15">Coder</span>
+                        </div>
+                        <div class="between-flex c-grey fs-12 mt-10">
+                            <span>20/06/2021</span>
+                            <span>5.5MK</span>
+                        </div>
+                    </div>
+                    <div class="card bg-white rad-6 p-10">
+                        <span class="fs-12 c-grey"><i class="fa-solid fa-download"></i></span>
+                        <div class="b-bottom">
+                            <div class="txt-c file-img mb-15">
+                                <img src="images/files/pdf.svg" alt="">
+                                <span class="fs-14">my file-pdf</span>
+                            </div>
+                            <span class="c-grey fs-14 d-block mb-15">Coder</span>
+                        </div>
+                        <div class="between-flex c-grey fs-12 mt-10">
+                            <span>20/06/2021</span>
+                            <span>5.5MK</span>
+                        </div>
+                    </div>
+                    <div class="card bg-white rad-6 p-10">
+                        <span class="fs-12 c-grey"><i class="fa-solid fa-download"></i></span>
+                        <div class="b-bottom">
+                            <div class="txt-c file-img mb-15">
+                                <img src="images/files/eps.svg" alt="">
+                                <span class="fs-14">my file-esp</span>
+                            </div>
+                            <span class="c-grey fs-14 d-block mb-15">Coder</span>
+                        </div>
+                        <div class="between-flex c-grey fs-12 mt-10">
+                            <span>20/06/2021</span>
+                            <span>5.5MK</span>
+                        </div>
+                    </div>
+                    <div class="card bg-white rad-6 p-10">
+                        <span class="fs-12 c-grey"><i class="fa-solid fa-download"></i></span>
+                        <div class="b-bottom">
+                            <div class="txt-c file-img mb-15">
+                                <img src="images/files/dll.svg" alt="">
+                                <span class="fs-14">my file-dll</span>
+                            </div>
+                            <span class="c-grey fs-14 d-block mb-15">Coder</span>
+                        </div>
+                        <div class="between-flex c-grey fs-12 mt-10">
+                            <span>20/06/2021</span>
+                            <span>5.5MK</span>
+                        </div>
+                    </div>
+                    <div class="card bg-white rad-6 p-10">
+                        <span class="fs-12 c-grey"><i class="fa-solid fa-download"></i></span>
+                        <div class="b-bottom">
+                            <div class="txt-c file-img mb-15">
+                                <img src="images/files/png.svg" alt="">
+                                <span class="fs-14">my file-png</span>
+                            </div>
+                            <span class="c-grey fs-14 d-block mb-15">Coder</span>
+                        </div>
+                        <div class="between-flex c-grey fs-12 mt-10">
+                            <span>20/06/2021</span>
+                            <span>5.5MK</span>
+                        </div>
+                    </div>
+                    <div class="card bg-white rad-6 p-10">
+                        <span class="fs-12 c-grey"><i class="fa-solid fa-download"></i></span>
+                        <div class="b-bottom">
+                            <div class="txt-c file-img mb-15">
+                                <img src="images/files/pdf.svg" alt="">
+                                <span class="fs-14">my file-pdf</span>
+                            </div>
+                            <span class="c-grey fs-14 d-block mb-15">Coder</span>
+                        </div>
+                        <div class="between-flex c-grey fs-12 mt-10">
+                            <span>20/06/2021</span>
+                            <span>5.5MK</span>
+                        </div>
+                    </div>
+                    <div class="card bg-white rad-6 p-10">
+                        <span class="fs-12 c-grey"><i class="fa-solid fa-download"></i></span>
+                        <div class="b-bottom">
+                            <div class="txt-c file-img mb-15">
+                                <img src="images/files/sql.svg" alt="">
+                                <span class="fs-14">my file-sql</span>
+                            </div>
+                            <span class="c-grey fs-14 d-block mb-15">Coder</span>
+                        </div>
+                        <div class="between-flex c-grey fs-12 mt-10">
+                            <span>20/06/2021</span>
+                            <span>5.5MK</span>
+                        </div>
+                    </div>
+                    <div class="card bg-white rad-6 p-10">
+                        <span class="fs-12 c-grey"><i class="fa-solid fa-download"></i></span>
+                        <div class="b-bottom">
+                            <div class="txt-c file-img mb-15">
+                                <img src="images/files/zip.svg" alt="">
+                                <span class="fs-14">my file-zip</span>
+                            </div>
+                            <span class="c-grey fs-14 d-block mb-15">Coder</span>
+                        </div>
+                        <div class="between-flex c-grey fs-12 mt-10">
+                            <span>20/06/2021</span>
+                            <span>5.5MK</span>
+                        </div>
+                    </div>
+                    <div class="card bg-white rad-6 p-10">
+                        <span class="fs-12 c-grey"><i class="fa-solid fa-download"></i></span>
+                        <div class="b-bottom">
+                            <div class="txt-c file-img mb-15">
+                                <img src="images/files/txt.svg" alt="">
+                                <span class="fs-14">my file-txt</span>
+                            </div>
+                            <span class="c-grey fs-14 d-block mb-15">Coder</span>
+                        </div>
+                        <div class="between-flex c-grey fs-12 mt-10">
+                            <span>20/06/2021</span>
+                            <span>5.5MK</span>
+                        </div>
+                    </div>
+                    <div class="card bg-white rad-6 p-10">
+                        <span class="fs-12 c-grey"><i class="fa-solid fa-download"></i></span>
+                        <div class="b-bottom">
+                            <div class="txt-c file-img mb-15">
+                                <img src="images/files/dll.svg" alt="">
+                                <span class="fs-14">my file-dll</span>
+                            </div>
+                            <span class="c-grey fs-14 d-block mb-15">Coder</span>
+                        </div>
+                        <div class="between-flex c-grey fs-12 mt-10">
+                            <span>20/06/2021</span>
+                            <span>5.5MK</span>
+                        </div>
+                    </div>
+                    <div class="card bg-white rad-6 p-10">
+                        <span class="fs-12 c-grey"><i class="fa-solid fa-download"></i></span>
+                        <div class="b-bottom">
+                            <div class="txt-c file-img mb-15">
+                                <img src="images/files/psd.svg" alt="">
+                                <span class="fs-14">my file-psd</span>
+                            </div>
+                            <span class="c-grey fs-14 d-block mb-15">Coder</span>
+                        </div>
+                        <div class="between-flex c-grey fs-12 mt-10">
+                            <span>20/06/2021</span>
+                            <span>5.5MK</span>
+                        </div>
+                    </div>
+                    <div class="card bg-white rad-6 p-10">
+                        <span class="fs-12 c-grey"><i class="fa-solid fa-download"></i></span>
+                        <div class="b-bottom">
+                            <div class="txt-c file-img mb-15">
+                                <img src="images/files/sql.svg" alt="">
+                                <span class="fs-14">my file-sql</span>
+                            </div>
+                            <span class="c-grey fs-14 d-block mb-15">Coder</span>
+                        </div>
+                        <div class="between-flex c-grey fs-12 mt-10">
+                            <span>20/06/2021</span>
+                            <span>5.5MK</span>
+                        </div>
+                    </div>
+                    <div class="card bg-white rad-6 p-10">
+                        <span class="fs-12 c-grey"><i class="fa-solid fa-download"></i></span>
+                        <div class="b-bottom">
+                            <div class="txt-c file-img mb-15">
+                                <img src="images/files/pdf.svg" alt="">
+                                <span class="fs-14">my file-pdf</span>
+                            </div>
+                            <span class="c-grey fs-14 d-block mb-15">Coder</span>
+                        </div>
+                        <div class="between-flex c-grey fs-12 mt-10">
+                            <span>20/06/2021</span>
+                            <span>5.5MK</span>
+                        </div>
+                    </div>
+                    <div class="card bg-white rad-6 p-10">
+                        <span class="fs-12 c-grey"><i class="fa-solid fa-download"></i></span>
+                        <div class="b-bottom">
+                            <div class="txt-c file-img mb-15">
+                                <img src="images/files/eps.svg" alt="">
+                                <span class="fs-14">my file-eps</span>
+                            </div>
+                            <span class="c-grey fs-14 d-block mb-15">Coder</span>
+                        </div>
+                        <div class="between-flex c-grey fs-12 mt-10">
+                            <span>20/06/2021</span>
+                            <span>5.5MK</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="statics bg-white rad-6 p-10 txt-c">
+                    <h3 class="">Files Statics</h3>
+                    <div class="p-10 border-ccc rad-6 between-flex mt-20">
+                        <div class="d-flex g-10 align-center">
+                            <span class="c-blue d-flex align-center justify-center"><i
+                                    class="fa-solid fa-file-pdf"></i></span>
+                            <div>
+                                <p class="fs-12 p-0 m-0">Pdf Files</p>
+                                <span class="c-grey fs-12">130</span>
+                            </div>
+                        </div>
+                        <span class="c-grey fs-12">6.5GB</span>
+                    </div>
+                    <div class="p-10 border-ccc rad-6 between-flex mt-20">
+                        <div class="d-flex g-10 align-center">
+                            <span class="c-green d-flex align-center justify-center"><i
+                                    class="fa-regular fa-images"></i></span>
+                            <div>
+                                <p class="fs-12 p-0 m-0">Images</p>
+                                <span class="c-grey fs-12">130</span>
+                            </div>
+                        </div>
+                        <span class="c-grey fs-12">6.5GB</span>
+                    </div>
+                    <div class="p-10 border-ccc rad-6 between-flex mt-20">
+                        <div class="d-flex g-10 align-center">
+                            <span class="c-red d-flex align-center justify-center"><i
+                                    class="fa-regular fa-file-word"></i></span>
+                            <div>
+                                <p class="fs-12 p-0 m-0">Word Files</p>
+                                <span class="c-grey fs-12">130</span>
+                            </div>
+                        </div>
+                        <span class="c-grey fs-12">6.5GB</span>
+                    </div>
+                    <div class="p-10 border-ccc rad-6 between-flex mt-20">
+                        <div class="d-flex g-10 align-center">
+                            <span class="c-orange d-flex align-center justify-center"><i
+                                    class="fa-solid fa-file-csv"></i></span>
+                            <div>
+                                <p class="fs-12 p-0 m-0">CSV Files</p>
+                                <span class="c-grey fs-12">130</span>
+                            </div>
+                        </div>
+                        <span class="c-grey fs-12">6.5GB</span>
+                    </div>
+
+                    <button class="btn-shape rad-10"><i class="fa-solid fa-angles-up pr-10"></i> Upload</button>
+                </div>
+            </div>
+        </div>
+        <!-- End courses -->
+        <script src="js/all.min.js"></script>
+</body>
+
+</html>

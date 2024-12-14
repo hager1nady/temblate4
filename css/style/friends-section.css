@@ -1,0 +1,52 @@
+.friends-page {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr))
+}
+
+.friends-page .card>span {
+    background-color: #eee;
+    padding: 5px 8px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.friends-page .card .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.friends-page .card img {
+    display: block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.friends-page .card .card-body>span {
+    color: rgba(255, 166, 0, 0.363);
+}
+
+.friends-page .card .card-footer {
+    padding-top: 10px;
+}
+
+.friends-page .card .card-footer a {
+    background-color: var(--main-color);
+    color: white;
+    padding: 2px 5px;
+}
+
+.friends-page .card .card-footer button {
+    background-color: red;
+    color: white;
+    padding: 3px 8px;
+    border: none;
+}

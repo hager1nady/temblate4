@@ -1,0 +1,28 @@
+@media (max-width:767px) {
+    .plans-content .plan-box {
+        width: calc(100%);
+    }
+
+    .plan-box a {
+        margin: 15px auto 0px auto;
+    }
+}
+
+@media (min-width :768px) {
+    .plans-content .plan-box {
+        width: calc(100% / 2 - 10px);
+    }
+}
+
+
+
+
+@media (min-width : 1200px) {
+    .plans-content {
+        flex-wrap: nowrap;
+    }
+
+    .plans-content .plan-box {
+        width: calc(100% / 3 - 10px);
+    }
+}

@@ -1,0 +1,86 @@
+@media(max-width:767px) {
+    .file-content {
+        flex-direction: column;
+    }
+
+    .file-content .files-page {
+        width: calc(100% - 40px);
+    }
+
+
+    .file-content .statics {
+        width: calc(100% - 40px);
+        margin-right: 20px;
+        margin-left: 20px;
+
+    }
+
+}
+
+@media (min-width:768px) {
+    .file-content {
+        flex-direction: column;
+    }
+
+    .file-content .files-page {
+        width: calc(100% - 40px)
+    }
+
+    .file-content .statics {
+        width: calc(100% / 3 - 30px );
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+}
+
+@media (min-width:900px){
+    .file-content {
+        flex-direction: column;
+    }
+
+    .file-content .files-page {
+        width: calc(100% - 40px)
+    }
+
+    .file-content .statics {
+        width: calc(100% / 4 - 30px );
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+}
+
+@media (min-width:1100px){
+    .file-content {
+        flex-direction: column;
+    }
+
+    .file-content .files-page {
+        width: calc(100% - 40px)
+    }
+
+    .file-content .statics {
+        width: calc(100% / 5 - 30px );
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+}
+
+@media (min-width:1200px){
+    .file-content {
+        flex-direction: row;
+    }
+
+    .file-content .files-page {
+        width: 80%;
+    }
+
+    .file-content .statics {
+        width: 20%;
+        height: 440px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        margin-left: 0;
+    }
+}
+

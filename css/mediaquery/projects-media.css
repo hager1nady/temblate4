@@ -1,0 +1,25 @@
+@media (max-width:991px) {
+    .project .project-content .box-container .box {
+        width: calc(100% - 20px);
+    }
+
+    .project .project-content .box-skills {
+        justify-content: center;
+    }
+
+    .project .project-content .box-skills span {
+        font-size: 10px;
+    }
+}
+
+@media (min-width:992px) {
+    .project .project-content .box-container .box {
+        width: calc(100% / 2 - 20px);
+    }
+}
+
+@media (min-width:1200px) {
+    .project .project-content .box-container .box {
+        width: calc(100% / 3 - 20px);
+    }
+}

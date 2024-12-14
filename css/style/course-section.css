@@ -1,0 +1,49 @@
+.courses-page {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr))
+}
+
+.courses-page .card {
+    overflow: hidden;
+}
+
+.courses-page .card .card-text>p:last-of-type {
+    padding-bottom: 15px;
+}
+
+.courses-page .card .image>img:first-of-type {
+    width: 100%;
+}
+
+.courses-page .card .image>img:last-of-type {
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.courses-page .card .card-footer {
+    border-top: 1px solid #eee;
+    position: relative;
+
+}
+
+.courses-page .card .card-footer a {
+    background-color: var(--main-color);
+    color: white;
+    padding: 4px 7px;
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}

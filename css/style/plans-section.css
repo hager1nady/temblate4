@@ -1,0 +1,65 @@
+.plans-content {
+    flex-wrap: wrap;
+}
+
+.plans-content .plan-box {
+    width: calc(100% / 3);
+}
+
+.plan-box .type {
+    width: 100%;
+    border: 2px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2px;
+}
+
+.plan-box:first-of-type .type {
+    border: 2px solid green;
+}
+
+.plan-box:first-of-type+.plan-box .type {
+    border: 2px solid blue;
+}
+
+.plan-box:last-of-type .type {
+    border: 2px solid orange;
+}
+
+.plan-box .type div {
+    width: 100%;
+    color: white;
+    padding: 10px 0px;
+}
+
+.plan-box:first-of-type .type div {
+    background-color: rgb(4, 178, 4);
+}
+
+.plan-box .type div>span:first-of-type {
+    position: absolute;
+    left: 37%;
+    bottom: 32%;
+
+}
+
+.plan-box ul {
+    width: 100%;
+}
+
+.plan-box:first-of-type a {
+    background-color: rgb(4, 178, 4);
+
+}
+
+.plan-box a {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 20px;
+}
